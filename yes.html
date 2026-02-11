@@ -1,1 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Yay!!</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      display: grid;
+      place-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background: #e7fff1;
+      color: #1f1f1f;
+      text-align: center;
+      padding: 24px;
+    }
+    .card {
+      background: white;
+      padding: 28px;
+      border-radius: 18px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.08);
+      width: min(520px, 100%);
+    }
+    h1 { margin: 0 0 12px; font-size: 2.1rem; }
+    p { margin: 0 0 18px; font-size: 1.1rem; }
+    .gif {
+      width: 100%;
+      border-radius: 14px;
+      overflow: hidden;
+      background: #c8f7d2;
+      margin: 0 auto 18px;
+      aspect-ratio: 16 / 10;
+      display: grid;
+      place-items: center;
+    }
+    .gif img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    a {
+      display: inline-block;
+      margin-top: 6px;
+      color: #0b7285;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>YAY!! 💖</h1>
 
+    <div class="gif">
+      <img
+        src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzg0d2VvZDhhOXBiN2t2YXcxbG4weHYzMXJobmZwYjBlcTZpMHE1aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/a6J89ZSWfO0GAmuPpt/giphy.gif"
+        alt="Happy gif"
+      />
+    </div>
+
+    <p>Thanks for planning the day! Can't wait to spend it with you!</p>
+
+    <a href="index.html">Back</a>
+  </div>
+</body>
+</html>
